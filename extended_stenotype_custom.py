@@ -11,7 +11,7 @@ KEYS = (
 
 IMPLICIT_HYPHEN_KEYS = ('A-', 'O-', '-E', '-U', '*')
 
-ORTHOGRAPHY_RULES.append(
+ORTHOGRAPHY_RULES.insert(
   # panic +ed = panicked (*panicced)
-  (r'^(.+)ic \^ (ed|ing|y|ier|iest|er)$', r'\1ick\2'),
+  0, (r'^(.+)ic \^ (ed|ing|y|ier|iest|er)$', r'\1ick\2'),
 )
