@@ -9,7 +9,8 @@ KEYS = (
   '-F', '-R', '-P', '-B', '-L', '-G', '-T', '-S', '-D', '-Z',
 )
 
-IMPLICIT_HYPHEN_KEYS = ('A-', 'O-', '-E', '-U', '*')
+SUFFIX_KEYS = ('-Z', '-D', '-S', '-G', '&-')
+
 
 ORTHOGRAPHY_RULES.insert(
   # panic +ed = panicked (*panicced)
