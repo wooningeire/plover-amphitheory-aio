@@ -11,6 +11,9 @@ KEYS = (
 
 SUFFIX_KEYS = ('-Z', '-D', '-S', '-G', '&-')
 
+NUMBER_KEY = None
+NUMBERS = {}
+FERAL_NUMBER_KEY = False
 
 ORTHOGRAPHY_RULES.insert(
   # panic +ed = panicked (*panicced)
