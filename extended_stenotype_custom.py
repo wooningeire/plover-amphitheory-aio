@@ -1,7 +1,7 @@
 from plover.system.english_stenotype import *
 
 KEYS = (
-  '#', '_', '^-', '+-', '&-', '.-', 
+  '#', '_', '$', '@', '^-', '+-', '&-',
   'S-', 'T-', 'K-', 'P-', 'W-', 'H-', 'R-',
   'A-', 'O-',
   '*',
@@ -9,7 +9,7 @@ KEYS = (
   '-F', '-R', '-P', '-B', '-L', '-G', '-T', '-S', '-D', '-Z',
 )
 
-SUFFIX_KEYS = ('-Z', '-D', '-S', '-G', '&-')
+SUFFIX_KEYS = ()
 
 NUMBER_KEY = None
 NUMBERS = {}
